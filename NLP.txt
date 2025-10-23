@@ -1,0 +1,42 @@
+Natural Languague Processing:
+Using computers to text data. NLP falls under AI, which is a filed that tries to replicate what humans can do using computers.
+
+AI:
+1) Computer Vision: Seeing like a human.
+    - Image recognition.
+    - Object detection.
+2) Machine Learning: Learning like a human.
+    - Supervised learning.
+    - Unsupervised learning.
+3) NLP: Interpreting language like a human.
+    - Sentiment analysis.
+    - Text summarization.
+
+Traditional NLP:
+    - Rules-Based. Application: Sentiment Analysis.
+    - Supervised Learning (Naive Bayes).  Application: Text Classification.
+    - Unsupervised Learning (NMF).  Application: Topic Modeling.
+Modern NLP:
+    - Encoder-Only LLM (BERT).  Application: Sentiment Analysis, Named Entity Recognition (NER)
+    - Encoder-Decoder LLM (BART).  Application: Zero Shot Classification, Text Summarization.
+    - Decoder-Only LLM (GPT).  Application: Text Generation.
+    - Embeddings (MiniLM).  Application: Document Similarity.
+
+NLP Libraries in Python:
+Text Preprocessing:
+    - Pandas: Cleaning & Normalization.
+    - SpaCy: Cleaning & Normalization, Linguistic Analysis.
+    - Scikit-learn: Vectorization.
+NLP with Machine Learning:
+    - VADER: Sentiment Analysis.
+    - Scikit-learn: Text Classification, Topic Modeling.
+Neural Networks & Deep Learning:
+    - Scikit-learn: Classification & Regression.
+Hugging Face Transformers:
+    - Transformers: Text Summarization, Text Generation, etc.
+
+Others To Learn:
+    - nltk.
+    - genism.
+    - TensorFlow.
+    - PyTorch.
