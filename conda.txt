@@ -1,0 +1,23 @@
+============================================================================================================================================
+Conda Environments: Place on your pc where you can install specific versions of Python and Python packages without affecting other projects.
+Conda Workflow:
+1) Create a new environment.
+2) Activate the new environment.
+3) Install the packages you need.
+3.5) Save packages in a "requirements.txt" file.
+4) Launch Jupyter within this environment.
+5) Start writing Python code as usual.
+6) Deactivate the environment
+
+Conda Commands:
+Environment:
+conda env list			=	Lists all conda environments in your system
+conda create --name test_env	=	Creates a new environment called test_env
+conda activate test_env		=	Activates the test_env environment
+conda deactivate		=	Deactivates the current environment and returns to the base environment
+Package:
+conda list			=	Lists installed packages in the active environment
+conda install			=	Installs specified packages into the active environment
+YML:
+conda env export > text_env.yml	  =	Exports package names and versions in the active environment into a .yml file.
+conda env create -f test_env.yml  =	Create a new environment from a .yml file
