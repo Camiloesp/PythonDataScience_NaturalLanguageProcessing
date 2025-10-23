@@ -40,3 +40,27 @@ Others To Learn:
     - genism.
     - TensorFlow.
     - PyTorch.
+
+NLP Pipeline:
+This workflow is found between the Cleaning Data and Exploring Data steps in the data science workflow.
+Text preprocessing is about preparing raw text data for analysis and modeling:
+1) We get Generally clean text data.
+2) Cleaning & Normalization.
+    - Cleaning: Remove unnecessary text.
+    - Normalization: make text consistent.
+    - These steps can be done using a combination of Pandas and spaCy
+3) Vectorization.
+    - Turn text into a matrix of numbers.
+    - Each document is represented by a vector of counts or TF-IDF values
+    - This can be done with scikit-learn.
+4) Text data ready for EDA and modeling.
+
+
+
+
+
+
+
+
+
+
