@@ -56,8 +56,14 @@ Text preprocessing is about preparing raw text data for analysis and modeling:
 4) Text data ready for EDA and modeling.
 
 
-
-
+Text Preprocessing with spaCy:
+Tokenization: let's you break text up into smaller units like words. "I'm Camilo" = ["i", "m", "camilo"] 
+Lemmatization: reduces words to their base form. ["i", "m", "camilo"]  = ["I", "m", "camilo"]. Also "Selling" would change to "sell"
+    Stemming:        am -> am, are -> ar, happy -> happi (BAD)
+    Lemmatization:   am -> be, are -> be, happy -> happy (Better)
+Stop words: words without any significant meaning.
+     "I'm Camilo" = ["m", "camilo"] 
+Parts of speech tagging (POS): lets you label nouns, verbs, etc. within text data
 
 
 
