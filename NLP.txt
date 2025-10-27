@@ -63,7 +63,7 @@ Lemmatization: reduces words to their base form. ["i", "m", "camilo"]  = ["I", "
     Lemmatization:   am -> be, are -> be, happy -> happy (Better)
 Stop words: words without any significant meaning.
      "I'm Camilo" = ["m", "camilo"] 
-Parts of speech tagging (POS): lets you label nouns, verbs, etc. within text data
+Parts of speech tagging (POS): lets you label nouns, verbs, etc. within text data.
 
 
 
