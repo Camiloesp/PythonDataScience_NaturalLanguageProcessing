@@ -64,7 +64,7 @@ Lemmatization: reduces words to their base form. ["i", "m", "camilo"]  = ["I", "
 Stop words: words without any significant meaning.
      "I'm Camilo" = ["m", "camilo"] 
 Parts of speech tagging (POS): lets you label nouns, verbs, etc. within text data.
-
+TF-IDF (Term Frequency-Inverse Document Frequency): an alternative to the word count calculation in a DTM. It emphhasizes important words by reducing the impact of common words.
 
 
 
