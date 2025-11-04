@@ -18,6 +18,9 @@ conda deactivate		=	Deactivates the current environment and returns to the base 
 Package:
 conda list			=	Lists installed packages in the active environment
 conda install			=	Installs specified packages into the active environment
+ 	=	Installs specified packages into the active environment, specifying what conda channel to use.
 YML:
 conda env export > text_env.yml	  =	Exports package names and versions in the active environment into a .yml file.
 conda env create -f test_env.yml  =	Create a new environment from a .yml file
+
+python -m spacy download en_core_web_sm	=  Download spacy english models.
