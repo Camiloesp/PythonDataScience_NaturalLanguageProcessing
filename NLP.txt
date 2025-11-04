@@ -68,7 +68,7 @@ TF-IDF (Term Frequency-Inverse Document Frequency): an alternative to the word c
 
 
 Machine Learning Algorithms for NLP: (Once you've preprocessed your text data)
-- Naive Bayes (Supervised ML Algorithm for text classification):
+- Naive Bayes (Supervised ML Algorithm for text classification): Technique that's commonly used for text classification.
 - Non-Negative Matrix Factorization (Unsupervised ML Algorithm for Dimensionality reduction that works well for topic modeling):
 
 
