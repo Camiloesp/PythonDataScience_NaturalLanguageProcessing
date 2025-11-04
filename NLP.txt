@@ -67,5 +67,43 @@ Parts of speech tagging (POS): lets you label nouns, verbs, etc. within text dat
 TF-IDF (Term Frequency-Inverse Document Frequency): an alternative to the word count calculation in a DTM. It emphhasizes important words by reducing the impact of common words.
 
 
+Machine Learning Algorithms for NLP: (Once you've preprocessed your text data)
+- Naive Bayes (Supervised ML Algorithm for text classification):
+- Non-Negative Matrix Factorization (Unsupervised ML Algorithm for Dimensionality reduction that works well for topic modeling):
+
+
+Traditional NLP:
+These common NLP tasks are often solved using tradition NLP methods, such as simple rules-based techniques or more advanced ML algorithms.
+- Sentiment Analysis: Identifying the positivity or negativity of text.
+    - Techniques: Rules-based
+    - Library: VADER
+    - Input format: raw text
+- Text Classification: Classifying text as one label or another.
+    - Technique: Supervised learning (i.e. Naive Bayes)
+    - Library: scikit-learn
+    - Input format: Vectorized Text (CV / TF-IDF)
+- Topic Modeling: Finding themes within a corpus of text.
+    - Techniques: Unsupervised learning (i.e. NMF)
+    - Library: scikit-learn
+    - Input format: Vectorized Text (CV / TF-IDF)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
