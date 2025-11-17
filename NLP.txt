@@ -72,7 +72,7 @@ Machine Learning Algorithms for NLP: (Once you've preprocessed your text data)
 - Non-Negative Matrix Factorization (Unsupervised ML Algorithm for Dimensionality reduction that works well for topic modeling):
 
 
-Traditional NLP:
+Traditional NLP: (Small to medium data sets)
 These common NLP tasks are often solved using tradition NLP methods, such as simple rules-based techniques or more advanced ML algorithms.
 - Sentiment Analysis: Identifying the positivity or negativity of text. An overall sentiment score between -1 and +1 is given to each block of text.
     - Techniques: Rules-based
@@ -86,6 +86,23 @@ These common NLP tasks are often solved using tradition NLP methods, such as sim
     - Techniques: Unsupervised learning (i.e. NMF)
     - Library: scikit-learn
     - Input format: Vectorized Text (CV / TF-IDF)
+
+Modern NLP: (Small to large data sets)
+    - Applications: Traditional NLP applications, Text Summarization, Text generation.
+    - Techniques: Transformers-based LLMs (BERT, GPT, LLaMA, T5, BART)
+
+Neural Network:
+It is a machine learning model designed to process information in a way that's inspired by neurons in the human brain.
+- Biological neurons communicate by receiving and passing along information to other neurons.
+- A neural network processes data through layers of nodes (neurons)
+
+Activation function: is a mathematical operation that determines the output of a neural network node
+Weight: is a numerical value that determines the strength and direction of the connection between two neurons
+
+
+
+
+
 
 
 
