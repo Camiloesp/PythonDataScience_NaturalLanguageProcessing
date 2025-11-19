@@ -1,4 +1,4 @@
-Natural Languague Processing:
+ Natural Languague Processing:
 Using computers to text data. NLP falls under AI, which is a filed that tries to replicate what humans can do using computers.
 
 AI:
@@ -99,11 +99,19 @@ It is a machine learning model designed to process information in a way that's i
 Activation function: is a mathematical operation that determines the output of a neural network node
 Weight: is a numerical value that determines the strength and direction of the connection between two neurons
 
+Deep Learning: refers to a neural network with 3 or more hidden layers.
 
+Deep Learning Architectures:
+- Feedforward Neural Network (FNN): is the simplest deep learning architecture (No additional calculations or operations)
+    
+- Convolutional Neural Networks (CNNs): 
+    Applications: Image-related trasks like image classification, object detection, etc.
+- Recurrent Neural Networks (RNNs): 
+    Applications: Sequential-tasks, such as NLP tasks, time series analysis, etc. 
+- Transformers: 
+    Applications: NLP, CV, ASR tasks, and much more!
 
-
-
-
+- Large Language Models (LLMs): deep learning models that are pretrained on massive amounts of text data, including BERT and GPT.
 
 
 
