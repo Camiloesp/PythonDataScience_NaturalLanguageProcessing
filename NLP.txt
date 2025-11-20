@@ -108,18 +108,40 @@ Deep Learning Architectures:
     Applications: Image-related trasks like image classification, object detection, etc.
 - Recurrent Neural Networks (RNNs): 
     Applications: Sequential-tasks, such as NLP tasks, time series analysis, etc. 
-- Transformers: 
+- Transformers: Deep learning architecture with three main layers: embeddings, attention, and feedforward neural networks (FNN) 
     Applications: NLP, CV, ASR tasks, and much more!
 
 - Large Language Models (LLMs): deep learning models that are pretrained on massive amounts of text data, including BERT and GPT.
 
+- Transformer architecture: refers to the series of layers and computations that the input data passes through to produce a final result.
+    * Along the way, the input text is gradually transformed, hence the name transformers.
+3 main categories of transformers: Encoder-only models, decoder-only models, and encoder-decoder models.
+- Encoder-Only LLMs: Turns text into embeddings.
+    Popular models: BERT - Bidirectional Encoder Representations from Transformers.
+- Decoder-Only LLMs: Infers the next token in a text.
+    Popular models: GPT - Generative Pre-trained Transformer.
+- Encoder-Decoder LLMs: Turns text into other text.
+    Popular models: T5 - Text-to-Text Transfer Transformer.
+                    BART - combines BERT and GPT.
 
 
+Main layers of a transformer:
+Raw text -> Embeddings layer -> Attention layer -> FNN layer -> Prediction.
 
+Embeddings layer: Uses vectors to represent the semantic meaning of words (From the taken raw text)
+Attention layer: Adjusts their meanings based on context from surrounding words.
+FNN layer: Learns patterns from the prior layers and adds complexity.
 
-
-
-
+Encoder-Only:
+- Sentiment Analysis.
+- Named Entity Recognition.
+Decoder-Only:
+- Text Generation.
+Encoder-Decoder:
+- Zero-Shot Classification.
+- Text Summarization.
+Embedding:
+- Document Similarity.
 
 
 
