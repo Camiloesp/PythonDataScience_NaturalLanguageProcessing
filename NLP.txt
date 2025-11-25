@@ -143,7 +143,8 @@ Encoder-Decoder:
 Embedding:
 - Document Similarity.
 
-
+Named Entity Recognition (NER): used to find and label important information (people, places, organizations, dates, etc.) in text.
+- Default LLM for NER is BERT (encoder-only).
 
 
 
