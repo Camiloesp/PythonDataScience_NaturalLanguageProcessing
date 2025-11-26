@@ -150,7 +150,8 @@ Zero-Shot Classification: used to quickly categorize text without labels.
 - The default LLM for zero-shot classification is BART (encoder-decoder)
 
 
-
+Text summarization: used to make long bodies of text more concise.
+- The default LLM for text summarization is BART (encoder-decoder)
 
 
 
