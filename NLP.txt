@@ -146,8 +146,8 @@ Embedding:
 Named Entity Recognition (NER): used to find and label important information (people, places, organizations, dates, etc.) in text.
 - Default LLM for NER is BERT (encoder-only).
 
-
-
+Zero-Shot Classification: used to quickly categorize text without labels.
+- The default LLM for zero-shot classification is BART (encoder-decoder)
 
 
 
