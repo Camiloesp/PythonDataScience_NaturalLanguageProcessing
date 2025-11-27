@@ -153,6 +153,23 @@ Zero-Shot Classification: used to quickly categorize text without labels.
 Text summarization: used to make long bodies of text more concise.
 - The default LLM for text summarization is BART (encoder-decoder)
 
+Text generation: used to write new text based on a prompt.
+- The default LLM for text generation is GPT (decoder-only)
+
+Embeddings: numeric representations of text that carry semantic meaning.
+- you can get document embeddings from a LLM using feature extraction
+- The default LLM for feature extraction is BERT (encoder-only), but MiniLM (encoder-only) is more popular for document similarity.
+
+Cosine similarity: metric used to calculate the similarity between observations.
+- Values range from -1 (dissimilar) to +1 (similar)
+- This can be used with document embeddings to calculate document similarity.
+
+
+
+
+
+
+
 
 
 
